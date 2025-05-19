@@ -1,0 +1,34 @@
+# Node modules
+/node_modules/
+
+# Build output
+/.vitepress/dist/
+/.vitepress/cache/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Optional: Lock files (if you prefer)
+# package-lock.json
+# yarn.lock
+
+# Misc
+.vite/
+.cache/
