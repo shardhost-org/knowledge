@@ -4,15 +4,15 @@ layout: home
 
 hero:
   name: "Knowledge Base"
-  text: "Guides, tutorials & tips for running your server at ShardHost"
-  tagline: Powered by VitePress
+  text: "Server tips, guides & tutorials."
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]]
   actions:
     - theme: brand
       text: Minecraft Tutorials
-      link: /tutorials/
+      link: /minecraft-tutorials
     - theme: alt
       text: Account Tutorials
-      link: /account-help/
+      link: /account-help
 
 features:
   - title: Comprehensive Hosting Guides

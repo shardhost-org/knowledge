@@ -1,4 +1,4 @@
 # Knowledge Base
-Guides, tutorials &amp; tips for running your server at ShardHost — powered by VitePress.
+Server tips, guides & tutorials — powered by [VitePress](https://vitepress.dev/).
 
 ——— To be changed.

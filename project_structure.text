@@ -1,0 +1,41 @@
+- .gitignore
+- .vitepress
+  - cache
+    - deps
+      - chunk-EOQB2BIQ.js
+      - chunk-EOQB2BIQ.js.map
+      - chunk-OOC6U5XS.js
+      - chunk-OOC6U5XS.js.map
+      - package.json
+      - vitepress___@vueuse_core.js
+      - vitepress___@vueuse_core.js.map
+      - vitepress___@vueuse_integrations_useFocusTrap.js
+      - vitepress___@vueuse_integrations_useFocusTrap.js.map
+      - vitepress___@vue_devtools-api.js
+      - vitepress___@vue_devtools-api.js.map
+      - vitepress___mark__js_src_vanilla__js.js
+      - vitepress___mark__js_src_vanilla__js.js.map
+      - vitepress___minisearch.js
+      - vitepress___minisearch.js.map
+      - vue.js
+      - vue.js.map
+      - _metadata.json
+  - config.mts
+  - theme
+    - index.ts
+    - style.css
+- account-help
+  - how-do-i-reset-my-password.md
+  - index.md
+- guides
+  - index.md
+- index.md
+- LICENSE.md
+- minecraft-tutorials
+  - index.md
+- package.json
+- pnpm-lock.yaml
+- public
+  - apple-touch-icon.png
+  - favicon.ico
+- README.md

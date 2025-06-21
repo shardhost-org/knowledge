@@ -1,25 +1,31 @@
 import { defineConfig } from "vitepress";
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "ShardHost Knowledge Base",
-  description:
-    "Guides, tutorials & tips for running your server at ShardHost — powered by VitePress. ",
+  title: "Support Hub",
+  titleTemplate: ":title | ShardHost",
+  description: "Server tips, guides & tutorials — powered by VitePress.",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Guides", link: "/guides/" },
-      { text: "Tutorials", link: "/tutorials/" },
+      { text: "Account Help", link: "/account-help/" },
+      { text: "Minecraft Tutorials", link: "/minecraft-tutorials/" },
     ],
 
     sidebar: [
       {
+        text: 'Account Help',
+        collapsed: false,
         items: [
-          { text: "Guides", link: "/guides/" },
-          { text: "Tutorials", link: "/tutorials/" },
-        ],
+          { text: 'How do I reset my account password', link: '/account-help/how-do-i-reset-my-password' },
+        ]
       },
+      {
+        text: 'Minecraft Tutorials',
+        collapsed: false,
+        items: [
+          { text: 'How to change my minecraft version', link: '/minecraft-tutorials/how-to-change-my-minecraft-version' },
+        ]
+      }
     ],
 
     socialLinks: [
@@ -34,7 +40,7 @@ export default defineConfig({
 
     footer: {
       message: "Released under the CC BY-NC-ND 4.0 License.",
-      copyright: "© 2025 ShardHost Inc. All rights reserved. ",
+      copyright: "© 2025 ShardHost Inc. All rights reserved.",
     },
   },
 });
