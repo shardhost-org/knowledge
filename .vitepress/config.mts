@@ -24,8 +24,9 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'How to change my minecraft version', link: '/minecraft-tutorials/how-to-change-my-minecraft-version' },
+          { text: "How to lower ram usage", link: '/minecraft-tutorials/lower-ram-usage'}
         ]
-      }
+      },
     ],
 
     socialLinks: [
